@@ -1,0 +1,103 @@
+/* style.css */
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 20px; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 60);
+} 
+
+.container { 
+	max-width: 800px; 
+	margin: 0 auto; 
+	background-color: #333131; 
+	padding: 20px; 
+	border-radius: 8px; 
+	box-shadow: 0 2px 4px rgba(255, 251, 251, 0.1); 
+} 
+
+h1 { 
+	text-align: center; 
+	margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background-color: #006a80;
+} 
+
+form { 
+	display: flex; 
+	justify-content: center; 
+	margin-bottom: 20px;
+    padding: 10px;
+} 
+
+input[type="text"], 
+input[type="number"] { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	outline: none; 
+    margin-right: 20px;
+
+} 
+
+input[type="text"]::placeholder, 
+input[type="number"]::placeholder { 
+	color: #999; 
+} 
+
+button { 
+	padding: 10px 20px; 
+	background-color: #4caf50; 
+	color: white; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer; 
+} 
+
+button:hover { 
+	background-color: #45a049; 
+} 
+
+.expense-table { 
+	border: 1px solid #ffffff; 
+	border-radius: 8px; 
+	overflow: hidden; 
+    color: aliceblue;
+    background-color: #333131;
+} 
+
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+} 
+
+thead th { 
+	padding: 10px; 
+	text-align: left; 
+} 
+
+tbody td { 
+	padding: 10px; 
+	border-top: 1px solid #ddd; 
+} 
+
+.delete-btn { 
+	color: red; 
+	cursor: pointer; 
+} 
+.edit-btn { 
+	color: rgb(113, 94, 255); 
+	cursor: pointer; 
+} 
+
+.total-amount { 
+	padding: 30px; 
+	text-align: right; 
+    color: aliceblue;
+    background-color: #333131;
+    border-color: rgb(255, 255, 255);
+
+}
